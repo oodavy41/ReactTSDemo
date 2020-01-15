@@ -1,0 +1,31 @@
+.progress-wrap {
+  box-shadow: 1px 2px 3px 1px var(--sub-color);
+  margin: 0.2em;
+}
+.progress-outer {
+  color: var(--title-color);
+  position: relative;
+  font-weight: bold;
+  overflow: hidden;
+}
+.progress-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--title-color);
+  opacity: 0.3;
+  transform: translateX(-100%);
+}
+.progress-close {
+  position: relative;
+  line-height: 1em;
+  top: -1.3em;
+  right: 0.5em;
+  float: right;
+  background-color: rgba(244, 67, 54, 0.8);
+  border: none;
+  border-radius: 10px;
+  color: white;
+}

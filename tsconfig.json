@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "baseUrl": ".",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "target": "es5",
+    "jsx": "react",
+    "paths": {
+      "@src/*": ["src/*"],
+      "@components/*": ["src/components/*"],
+      "@pages/*": ["src/pages/*"],
+      "@assets/*": ["src/assets/*"],
+      "@utils/*": ["src/utils/*"]
+    }
+  },
+  "include": ["./src/**/*"]
+}

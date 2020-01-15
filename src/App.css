@@ -1,0 +1,30 @@
+body {
+  --main-color: #effffb;
+  --sub-color: #50d890;
+  --title-color: #4f98ca;
+  --text-color: #272727;
+  background-color: var(--main-color);
+  background-image: url("./assets/texture.png");
+  background-size: 8%;
+  color: var(--text-color);
+}
+
+.page-cell {
+  position: relative;
+  font-size: 1.2em;
+  line-height: 2.5em;
+}
+.page-cell:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 100%;
+  background: var(--main-color);
+  transform: scale(0);
+  transition: all 0.3s;
+}
+.page-cell:hover:before {
+  transform: scale(1);
+}

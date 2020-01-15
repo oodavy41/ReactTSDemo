@@ -1,0 +1,28 @@
+.uploader-wrap {
+}
+.uploader-input {
+  margin: 0.5em 1.5em;
+}
+
+.uploader-input-element {
+  position: relative;
+  font-size: 1.2em;
+  line-height: 2.5em;
+  padding: 0.5em;
+  color: var(--text-color);
+  border: 1px solid var(--sub-color);
+  border-radius: 5px;
+  text-align: center;
+}
+.uploader-input-element.uploader-draging {
+  background-color: rgba(155, 255, 150, 0.5);
+}
+.uploader-input-html {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}

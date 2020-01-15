@@ -1,0 +1,31 @@
+.video-card {
+  box-shadow: 2px 2px 3px 2px var(--sub-color);
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  min-width: 340px;
+  align-items: center;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video-element {
+  margin: 5px;
+}
+.video-title {
+  margin: 1em;
+  vertical-align: top;
+  display: inline-block;
+}
+@media only .video-card and (max-width: 400) {
+}
+@media only screen and (max-width: 400px) {
+  .video-card {
+    padding: 10px 3px;
+    margin: 20px 5px;
+  }
+  .video-element {
+    margin: 3px;
+  }
+}
